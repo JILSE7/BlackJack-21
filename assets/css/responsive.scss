@@ -1,0 +1,27 @@
+//MAX 900PX
+@media (max-width: 900px) {
+    body {
+        #mainContent {
+            .principal {
+                h2 {
+                    font-size: 1.8rem !important;
+                }
+                #marcador {
+                    width: 80% !important;
+                }
+                .botones {
+                    width: 100% !important;
+                    .btn {
+                        margin-left: 10px;
+                    }
+                }
+                .juego {
+                    img {
+                        width: 100px !important;
+                        top: 50px !important;
+                    }
+                }
+            }
+        }
+    }
+}
