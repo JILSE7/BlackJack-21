@@ -148,7 +148,7 @@ const miModulo = (() => { //ESTO ES UNA IIFE, FUNCION INVOCADA INMEDIATAMENTE Y 
             puntosComputadora = acumularPuntos(carta, puntosJugadores.length - 1);
             crearCarta(carta, puntosJugadores.length - 1)
 
-        } while ((puntosMinimos <= 21) && (puntosComputadora <= puntosMinimos) && (puntosComputadora <= 21));
+        } while ((puntosMinimos <= 21) && (puntosComputadora <= puntosMinimos) && (puntosComputadora <= 21) || puntosComputadora == puntosMinimos);
         Ganador(puntosJugadores[0], puntosJugadores[puntosJugadores.length - 1])
     };
 
